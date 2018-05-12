@@ -12,6 +12,12 @@ Valid Login
     When user "demo" logs in with password "mode"
     Then welcome page should be open
 
+Valid Login2
+    Given browser is opened to login page
+    When user "demo2" logs in with password "mode2"
+    Then welcome page should be open
+
+
 *** Keywords ***
 Browser is opened to login page
     Open browser to login page
