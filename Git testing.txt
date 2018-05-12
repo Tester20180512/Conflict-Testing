@@ -1,5 +1,0 @@
-clone
-commit
-push
-fetch
-branch
